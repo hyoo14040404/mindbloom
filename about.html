@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+        <!-- LINKS -->
+     <link rel="preconnect" href="file:///Users/deanyoo/Desktop/SAIC/Winter%202024/Final%20Project/BlinkMacSystemFont">
+     <link rel="stylesheet" href="../css/global.css">
+    </head>
+
+<body>
+    <div class="pge-wrapper">
+        <header>
+            <!-- INSIDE WRAPPER -->
+            <div class="ins-wrapper">
+                <!-- PAGE HEADING -->
+                <h1>Mind Bloom</h1>
+            </div>
+        </header>
+        <nav>
+            <!-- MENU ITEMS -->
+             <ul class="menu">
+                <!-- HOME -->
+                 <li>
+                    <a href="index.html">Home</a>
+                 </li>
+                 <!-- ABOUT -->
+                  <li>
+                    <a href="about.html" class="current-page">About</a>
+                  </li>
+                  <!-- POEM -->
+                   <li>
+                    <a href="poem.html">Poem</a>
+                </li>
+                <!-- SONG -->
+                 <li>
+                    <a href="song.html"> Song</a>
+                 </li>
+             </ul>
+        </nav>
+        <div class="grey-box-1"></div>
+        <div class="img-gallery-1">
+            <figure class="img-wrapper-1">
+                <img src="../Images/img-1.jpg" width="1600px" height="281px">
+            </figure>
+        </div>
+        <div class="img-gallery-5">
+            <figure class="img-wrapper-5">
+                <img src="../Images/img-5.jpg" width="500px" height="520px">
+            </figure>
+        </div>
+        <div class="intro-text">
+            <h5>
+                About Mind Bloom
+            </h5>
+            <p>
+                Welcome to Mind Bloom, a digital sanctuary designed to bring <br> peace and comfort to those navigating anxiety disorders. We <br> believe in the power of art and nature to heal, and our platform <br> offers a carefully curated collection of poetry and environmental <br> soundscapes to help soothe the mind and uplift the spirit.
+            </p>
+        </div>
+        <div class="intro-text-2">
+            <h6>Our Mission</h6>
+            <div class="mission-text">
+                <p>
+                    At Mind Bloom, we understand that anxiety can feel overwhelming, but we <br> also know that small moments of calm can make a difference. Our mission is <br> to create a space where words and sounds work together to provide a <br> sense of relief, reflection, and renewal—a space where your mind can bloom <br> at its own pace.
+                </p>
+            </div>
+        </div>
+
+        <div class="offer-text">
+            <p>
+                What we offer
+            </p>
+
+            <div class="offer-ins-wrapper-1">
+                <p>
+                    Poetry for the Soul
+                </p>
+                <p>
+                    Thoughtfully selected <br> and original poems <br> that offer gentle <br> encouragement and <br> emotional resonance
+                </p>
+            </div>
+
+            <div class="offer-ins-wrapper-2">
+                <p>
+                    Nature
+                </p>
+                <p>
+                    Inspired Soundscapes <br> Ambient environmental <br> music designed to foster <br> relaxation and mindfulness
+                </p>
+            </div>
+
+            <div class="offer-ins-wrapper-3">
+                <p>
+                    A Safe and <br> Supportive Space
+                </p>
+                <p>
+                    Immerse yourself in the <br> calming rhythms of <br> nature, or just take a break <br> from the noise of <br> everyday life
+                </p>
+            </div>
+        </div>
+
+        <div class="img-gallery-6">
+            <figure class="img-wrapper-6">
+                <img src="../Images/img-6.png" width="400" height="400px">
+            </figure>
+        </div>
+
+        <div class="intro-text-4">
+            <p>
+                The Inspiration
+            </p>
+            <p>
+                Mind Bloom was created with the belief that design, words, <br> and sound can harmonize to create a therapeutic experience. <br> As someone passionate about UI/UX and graphic design, I, <br> Dean Yoo, wanted to craft an online refuge that blends <br> thoughtful aesthetics with meaningful content—one that <br> nurtures the mind as much as it delights the senses.
+            </p>
+        </div>
+
+        <div class="join-us">
+            <p>
+                Join Us
+            </p>
+            <div class="join-us-ins-text">
+                <p>
+                    Whether you are looking for a moment of peace, a gentle escape, or a <br> source of quiet inspiration, Mind Bloom is here for you. Let your thoughts <br> settle, let your heart breathe, and let your mind bloom. <br> Follow along and explore the journey toward calm. 
+                </p>
+            </div>
+        </div>
+
+        <div class="toggle-container">
+            <label class="toggle-switch">
+                <input type="checkbox" id="toggle-slider">
+                <span class="slider"></span>
+            </label>
+            <div id="toggle-content" class="hidden"></div>
+        </div>
+        <script>
+            document.getElementById("toggle-slider").addEventListener("change", function() {
+                var content = document.getElementById("toggle-content");
+                if (this.checked) {
+                    content.classList.remove("hidden");
+                } else {
+                    content.classList.add("hidden");
+                }
+            });
+        </script>
+        
+    </div>
+</body>

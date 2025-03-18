@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+        <!-- LINKS -->
+     <link rel="preconnect" href="file:///Users/deanyoo/Desktop/SAIC/Winter%202024/Final%20Project/BlinkMacSystemFont">
+     <link rel="stylesheet" href="../css/global.css">
+    </head>
+
+<body>
+    <div class="pge-wrapper">
+        <header>
+            <!-- INSIDE WRAPPER -->
+            <div class="ins-wrapper">
+                <!-- PAGE HEADING -->
+                <h1>Mind Bloom</h1>
+            </div>
+        </header>
+        <nav>
+            <!-- MENU ITEMS -->
+             <ul class="menu">
+                <!-- HOME -->
+                 <li>
+                    <a href="index.html">Home</a>
+                 </li>
+                 <!-- ABOUT -->
+                  <li>
+                    <a href="about.html">About</a>
+                  </li>
+                  <!-- POEM -->
+                   <li>
+                    <a href="poem.html">Poem</a>
+                </li>
+                <!-- SONG -->
+                 <li>
+                    <a href="song.html" class="current-page"> Song</a>
+                 </li>
+             </ul>
+        </nav>
+        
+        <div class="img-gallery-1">
+            <figure class="img-wrapper-1">
+                <img src="../Images/img-1.jpg" width="1600px" height="281px">
+            </figure>
+        </div>
+        
+        <div class="img-gallery-13">
+            <figure class="img-wrapper-13">
+                <img src="../Images/img-13.jpg" width="500px" height="520px">
+            </figure>
+        </div>
+        <div class="poem-text">
+            <p>
+                Song
+            </p>
+            <div class="poem-text-ins">
+                <p>
+                    Sound can be a gateway to calm, offering a gentle escape from <br> stress and anxiety. Our Songs page features nature-inspired <br> soundscapes and ambient music designed to promote relaxation and <br> inner peace. From the soothing rhythm of ocean waves to the tranquil <br> whispers of a forest, each sound invites you to breathe deeply, unwind, <br> and embrace serenity in the present moment.                </p>
+            </div>
+        </div>
+        <div class="song-1-gallery">
+            <div class="img-gallery-14">
+                <figure class="img-wrapper-14">
+                    <img src="../Images/img-14.jpg" width="1200px" height="520px" onclick="toggleAudio('audio1')">
+                </figure>
+            </div>
+            <div class="song-text-1">
+                <p>
+                    Calm City Sound
+                </p>
+            </div>
+            <audio id="audio1" src="../audio/mp3-1.mp3"></audio>
+        </div>
+        <div class="song-2-gallery">
+            <div class="img-gallery-15">
+                <figure class="img-wrapper-15">
+                    <img src="../Images/img-15.jpg" width="1200px" height="520px" onclick="toggleAudio('audio2')">
+                </figure>
+            </div>
+            <div class="song-text-2">
+                <p>
+                    Calm Ocean Waves
+                </p>
+            </div>
+            <audio id="audio2" src="../audio/mp3-2.mp3"></audio>
+        </div> 
+        <div class="song-3-gallery">
+            <div class="img-gallery-16">
+                <figure class="img-wrapper-16">
+                    <img src="../Images/img-16.jpg" width="1200px" height="520px" onclick="toggleAudio('audio3')">
+                </figure>
+            </div>
+            <div class="song-text-3">
+                <p>Morning Coffee</p>
+            </div>
+            <audio id="audio3" src="../audio/mp3-3.mp3"></audio>
+        </div> 
+        <div class="song-4-gallery">
+            <div class="img-gallery-17">
+                <figure class="img-wrapper-17">
+                    <img src="../Images/img-17.jpg" width="1200px" height="520px" onclick="toggleAudio('audio4')">
+                </figure>
+            </div>
+            <div class="song-text-4">
+                <p>Relaxing Forest Ambience</p>
+            </div>
+            <audio id="audio4" src="../audio/mp3-4.mp3"></audio>
+        </div>
+        <div class="song-5-gallery">
+            <div class="img-gallery-18">
+                <figure class="img-wrapper-18">
+                    <img src="../Images/img-18.jpg" width="1200px" height="520px" onclick="toggleAudio('audio5')">
+                </figure>
+            </div>
+            <div class="song-text-5">
+                <p>
+                    Gentle Night Rain
+                </p>
+            </div>
+            <audio id="audio5" src="../audio/mp3-5.mp3"></audio>
+        </div>
+    </div>
+    <script>
+        function toggleAudio(audioId) {
+            let audio = document.getElementById(audioId);
+    
+            if (audio.paused) {
+                // Pause all other audio tracks
+                document.querySelectorAll("audio").forEach(a => a.pause());
+    
+                // Play the clicked audio
+                audio.play();
+            } else {
+                audio.pause();
+            }
+        }
+    </script>
+</body>
