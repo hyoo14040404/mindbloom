@@ -1,0 +1,968 @@
+/*
+Name= Global */
+
+/*
+=Global
+============================================= */
+
+/*
+=prevent font scaling in mobile landscape while allowing user zoom */
+:root {
+    -webkit-text-size-adjust: none;
+        text-size-adjust: none;
+}
+
+/*
+=overrid the default box sizing value */
+
+* {box-sizing: border-box;}
+
+html, body {
+    height: 100%;
+}
+
+/*
+=style the body element */
+body {
+    background: rgb(255, 255, 255);
+    margin: auto;
+}
+
+/*
+=PAGE WRAPPER
+============================================= */
+.pge-wrapper {
+    background-color: rgb(227, 227, 227);
+    display: flow-root; /* create a new block formatting context*/
+    max-width: 1200px;
+    min-height: 100vh;
+    height: 4550px;
+    margin: auto;
+}
+
+header {
+    position: relative;
+    margin: auto;
+    width: 100%;
+}
+
+header .ins-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    position: relative;
+    color: white;
+    display: block;
+    font: 700 40pt "BlinkMacSystemFont",sans-serif;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.img-gallery-1 img {
+    display: flex;
+    max-width: 1200px;
+    height: 410px;
+    margin-top: -350px;
+    margin-left: -40px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    color: white; /* Text color */
+    text-decoration: none;
+  }
+  
+
+.menu {
+    display: flex;
+    color: white;
+    font: 700 16pt "BlinkMacSystemFont", sans-serif;
+    position: absolute;
+    top: 20px; left: 1000px;
+    text-decoration: none;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.menu > :nth-child(n+2) {
+    margin-left: 20px;
+}
+
+.menu > :nth-child(1) {
+    position: relative;
+}
+
+.menu > :nth-child(2) {
+    position: relative;
+    
+}
+
+.menu > :nth-child(3) {
+    position: relative;
+}
+
+.menu > :nth-child(4) {
+    position: relative;
+}
+
+
+.menu > :nth-child(2),
+.menu > :nth-child(3) {
+    position: relative;
+}
+
+nav ul {padding: 0;}
+nav li {list-style: none;}
+
+.img-gallery-2 img {
+    position: relative;
+    display: block;
+    margin-top: 199px;
+    margin-left: 200px;
+}
+
+.first-box :nth-child(1){
+position: absolute;
+display: flex;
+width: 460px; height: 255px;
+background-color: black;
+opacity: 20%;
+font: 600 16pt "BlinkMacSystemFont", sans-serif;
+color: white;
+line-height: 50px;
+margin-top: 275px;
+margin-left: 495px;
+align-content: center;
+justify-content: center;
+padding-top: 60px;
+padding-left: 10px;
+}
+
+.intro-box{
+    position: relative;
+    display: block;
+    margin-top: 300px;
+}
+
+.intro-box-ins-wrapper {
+    display: block;
+    width: 1200px;
+    height: 550px;
+    background: linear-gradient(#B87D4C, #6B242B, #030B30);
+    padding-top: 150px;
+}
+
+h2 {
+    display: flex;
+    width: 600px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font: 700 23pt "BlinkMacSystemFont", sans-serif;
+    line-height: 40px;
+    letter-spacing: 4px;
+}
+
+.intro-box-ins-wrapper :nth-child(2) {
+    display: block;
+    width: 500px;
+    height: 150px;
+    color: white;
+    font: 500 16pt "BlinkMacSystemFont", sans-serif;
+    margin-left: 650px;
+    margin-top: -200px;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+
+.service-box {
+display: block;
+position: absolute;
+margin-top: -1050px;
+}
+
+.service-wrapper {
+    display: block;
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    background-color: rgb(227, 227, 227);
+}
+
+h4 {
+    font: 500 35pt "BlinkMacSystemFont", "sans-serif";
+    margin-left: 80px;
+    margin-top: -10px;
+}
+
+.service-wrapper > p:nth-child(2) {
+    font: 400 20pt "BlinkMacSystemFont", "sans-serif";
+    margin-left: 80px;
+    margin-top: -10px;
+}
+
+.service-wrapper > p:nth-child(3) {
+    font: 400 20pt "BlinkMacSystemFont", "sans-serif";
+    margin-left: 79px;
+    margin-top: 50px;
+}
+
+.service-wrapper > p:nth-child(4) {
+    font: 400 20pt "BlinkMacSystemFont", "sans-serif";
+    margin-left: 180px;
+    margin-top: -138px;
+}
+
+.service-wrapper > p:nth-child(5) {
+    font: 200 15pt "BlinkMacSystemFont", "sans-serif";
+    margin-left: 500px;
+    margin-top: -65px;
+}
+
+.service-wrapper > p:nth-child(6) {
+    font: 400 20pt "BlinkMacSystemFont", "sans-serif";
+    margin-left: 180px;
+    margin-top: 40px;
+}
+
+.service-wrapper > p:nth-child(7) {
+    font: 200 15pt "BlinkMacSystemFont", "sans-serif";
+    margin-left: 500px;
+    margin-top: -65px;
+}
+
+.intro-box-2{
+    position: relative;
+    display: block;
+    margin-top: 800px
+}
+
+.intro-box-2-ins-wrapper {
+    display: block;
+    width: 1200px;
+    height: 550px;
+    background: linear-gradient(#B87D4C, #6B242B, #030B30);
+    padding-top: 150px;
+}
+
+h3 {
+    display: flex;
+    width: 600px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font: 700 23pt "BlinkMacSystemFont", sans-serif;
+    line-height: 40px;
+    letter-spacing: 4px;
+    margin-left: -30px;
+}
+
+.intro-box-2-ins-wrapper :nth-child(2) {
+    display: block;
+    width: 500px;
+    height: 150px;
+    color: white;
+    font: 500 16pt "BlinkMacSystemFont", sans-serif;
+    margin-left: 650px;
+    margin-top: -200px;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+
+.img-gallery-3 {
+    display: block;
+    position: absolute;
+    margin-top: 2480px;
+}
+
+.img-gallery-3 :nth-child(1) {
+    margin-left: -0.5px;
+}
+
+.poem-text-home {
+    display: flex;
+    position: relative;
+    font: 500 23pt "BlinkMacSystemFont", "sans-serif";
+    justify-content: center;
+    align-content: center;
+    margin-left: 750px;
+    margin-top: 500px;
+    text-align: center;
+}
+
+.explore-1 {
+    background-color: rgb(227, 227, 227);
+}
+.explore-btn {
+    display: flex;
+    position: relative;
+    background-color: black;
+    width: 130px;
+    font: 400 20pt "BlinkMacSystemFont", "sans-serif";
+    justify-content: center;
+    align-content: center;
+    margin-left: 900px;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.explore-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.img-gallery-4 {
+    display: block;
+    position: relative;
+    margin-left: 450px;
+    margin-top: 500px;
+}
+
+
+.song-text-home {
+    display: block;
+    position: relative;
+    font: 500 23pt "BlinkMacSystemFont", "sans-serif";
+    margin-top: -325px;
+    margin-left: 115px;
+}
+
+.explore-2 {
+    background-color: rgb(227, 227, 227);
+}
+
+.explore-btn-2 {
+    display: flex;
+    position: relative;
+    background-color: black;
+    width: 130px;
+    font: 400 20pt "BlinkMacSystemFont", "sans-serif";
+    justify-content: center;
+    align-content: center;
+    margin-left: 160px;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.explore-btn-2:hover {
+    background-color: white;
+    color: black;
+}
+
+.img-gallery-5 {
+    display: flex;
+    position: relative;
+    margin-left: 660px;
+    margin-top: 170px;
+}
+
+.intro-text {
+    display: block;
+    position: relative;
+    margin-top: -500px;
+    margin-left: 70px;
+}
+
+h5 {
+    font: 700 35pt "BlinkMacSystemFont", "sans-serif";
+}
+
+.intro-text > p {
+    font: 300 14pt "BlinkMacSystemFont", "sans-serif";
+    line-height: 40px;
+    margin-top: -30px;
+}
+
+.intro-text-2 {
+    display: flex;
+    width: 1200px;
+    height: 550px;
+    background: linear-gradient(#B87D4C, #6B242B, #030B30);
+    padding-top: 150px;
+    color: white;
+    margin-top: 400px;
+}
+
+.mission-text {
+    display: block;
+    position: relative;
+    font: 400 14pt "BlinkMacSystemFont", "sans-serif";
+    line-height: 50px;
+    margin-left: -980px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+h6 {
+    font: 700 35pt "BlinkMacSystemFont", "sans-serif";
+    display: flex;
+    position: relative;
+    width: 800px;
+    margin-top: -80px;
+    margin-left: 460px;
+}
+
+
+.offer-text > p {
+    font: 700 35pt "BlinkMacSystemFont", "sans-serif";
+    margin-top: 200px;
+}
+
+.offer-ins-wrapper-1 {
+    background: linear-gradient(#B87D4C, #6B242B, #030B30);
+    width: 320px;
+    height: 450px;
+    border-radius: 45px;
+    color: white;
+    margin-top: 150px;
+}
+
+.offer-ins-wrapper-1 :nth-child(1) {
+    font: 700 20pt "BlinkMacSystemFont", "sans-serif";
+    margin-left: 45px;
+    padding-top: 40px;
+}
+
+.offer-ins-wrapper-1 :nth-child(2) {
+    font: 200 16pt "BlinkMacSystemFont", "sans-serif";
+    text-align: center;
+    line-height: 57px;
+}
+
+
+.offer-ins-wrapper-2 {
+    background: linear-gradient(#B87D4C, #6B242B, #030B30);
+    width: 320px;
+    height: 450px;
+    border-radius: 45px;
+    color: white;
+    margin-left: 445px;
+    margin-top: -478px;
+}
+
+.offer-ins-wrapper-2 :nth-child(1) {
+    font: 700 20pt "BlinkMacSystemFont", "sans-serif";
+    margin-left: 118px;
+    padding-top: 40px;
+}
+
+.offer-ins-wrapper-2 :nth-child(2) {
+    font: 200 16pt "BlinkMacSystemFont", "sans-serif";
+    text-align: center;
+    line-height: 57px;
+}
+
+.offer-ins-wrapper-3 {
+    background: linear-gradient(#B87D4C, #6B242B, #030B30);
+    width: 320px;
+    height: 450px;
+    border-radius: 45px;
+    color: white;
+    margin-left: 880px;
+    margin-top: -478px;
+}
+
+.offer-ins-wrapper-3 :nth-child(1) {
+    font: 700 20pt "BlinkMacSystemFont", "sans-serif";
+    margin-left: 10px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.offer-ins-wrapper-3 :nth-child(2) {
+    font: 200 16pt "BlinkMacSystemFont", "sans-serif";
+    text-align: center;
+    line-height: 57px;
+}
+
+.img-gallery-6 {
+    margin-left: 25px;
+    margin-top: 350px;
+}
+
+.intro-text-4 :nth-child(1) {
+    font: 700 35pt "BlinkMacSystemFont", "sans-serif";
+    margin-left: 550px;
+    margin-top: -330px;
+}
+
+.intro-text-4 :nth-child(2) {
+    font: 400 16pt "BlinkMacSystemFont", "sans-serif";
+    margin-top: 20px;
+    margin-left: 550px;
+    line-height: 35px;
+}
+
+.toggle-container {
+    text-align: center;
+    margin-top: 70px;
+}
+
+/* Toggle Switch */
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+}
+
+.toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 50px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 40px;
+    width: 40px;
+    left: 5px;
+    bottom: 5px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #6B242B;
+}
+
+input:checked + .slider:before {
+    transform: translateX(50px);
+}
+
+.join-us {
+    margin-top: 300px;
+}
+
+.join-us > p {
+    font: 700 35pt "BlinkMacSystemFont", "sans-serif";
+    letter-spacing: 2px;
+    display: block;
+    position: relative;
+    margin-left: 520px;
+}
+
+.join-us-ins-text {
+    font: 400 16pt "BlinkMacSystemFont", "sans-serif";
+    line-height: 54px;
+    text-align: center;
+}
+
+.img-gallery-7 {
+    display: flex;
+    position: relative;
+    margin-left: 660px;
+    margin-top: 170px;
+}
+
+.poem-text {
+    display: block;
+    position: relative;
+    margin-top: -500px;
+    margin-left: 70px;
+}
+
+.poem-text > p {
+    font: 700 35pt "BlinkMacSystemFont", "sans-serif";
+    text-align: left;
+    margin-top: 60px;
+}
+
+.poem-text-ins :nth-child(1) {
+    font: 300 14pt "BlinkMacSystemFont", "sans-serif";
+    line-height: 40px;
+    margin-top: 40px;
+    text-align: left;
+}
+
+.poem-1-gallery {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin-top: 350px;
+}
+
+.img-gallery-8 {
+    display: block;
+    position: relative;
+    margin-left: -40px;
+}
+
+.img-wrapper-8 > img {
+    border-radius: 30px;
+}
+
+.poem-text-1 {
+    display: block;
+    position: absolute;
+    color: white;
+}
+
+.poem-text-1 > p {
+    font: 700 20pt "BlinkMacSystemFont", "sans-serif";
+    margin-top: 80px;
+    margin-left: 70px;
+}
+
+.poem-text-1-ins {
+    font: 300 14pt "BlinkMacSystemFont", "sans-serif";
+    margin-left: 70px;
+    width: 700px;
+    line-height: 40px;
+}
+
+.poem-2-gallery {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.img-gallery-9 {
+    display: block;
+    position: relative;
+    margin-left: -40px;
+}
+
+.img-wrapper-9 > img {
+    border-radius: 30px;
+}
+
+.poem-text-2 {
+    display: block;
+    position: absolute;
+    color: white;
+}
+
+.poem-text-2 > p {
+    font: 700 20pt "BlinkMacSystemFont", "sans-serif";
+    width: 800px;
+    margin-top: 80px;
+    margin-left: 70px;
+}
+
+.poem-text-2-ins {
+    font: 300 14pt "BlinkMacSystemFont", "sans-serif";
+    margin-left: 70px;
+    width: 1000px;
+    line-height: 40px;
+}
+
+.poem-3-gallery {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.img-gallery-10 {
+    display: block;
+    position: relative;
+    margin-left: -40px;
+}
+
+.img-wrapper-10 > img {
+    border-radius: 30px;
+}
+
+.poem-text-3 {
+    display: block;
+    position: absolute;
+    color: white;
+}
+
+.poem-text-3 > p {
+    font: 700 20pt "BlinkMacSystemFont", "sans-serif";
+    margin-top: 80px;
+    margin-left: 70px;
+}
+
+.poem-text-3-ins {
+    font: 300 14pt "BlinkMacSystemFont", "sans-serif";
+    margin-left: 70px;
+    width: 900px;
+    line-height: 40px;
+}
+
+.poem-4-gallery {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.img-gallery-11 {
+    display: block;
+    position: relative;
+    margin-left: -40px;
+}
+
+.img-wrapper-11 > img {
+    border-radius: 30px;
+}
+
+.poem-text-4 {
+    display: block;
+    position: absolute;
+    color: white;
+}
+
+.poem-text-4 > p {
+    font: 700 20pt "BlinkMacSystemFont", "sans-serif";
+    margin-top: 80px;
+    margin-left: 70px;
+}
+
+.poem-text-4-ins {
+    font: 300 14pt "BlinkMacSystemFont", "sans-serif";
+    margin-left: 70px;
+    width: 700px;
+    line-height: 40px;
+}
+
+.poem-5-gallery {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.img-gallery-12 {
+    display: block;
+    position: relative;
+    margin-left: -40px;
+}
+
+.img-wrapper-12 > img {
+    border-radius: 30px;
+}
+
+.poem-text-5 {
+    display: block;
+    position: absolute;
+    color: white;
+}
+
+.poem-text-5 > p {
+    font: 700 20pt "BlinkMacSystemFont", "sans-serif";
+    margin-top: 80px;
+    margin-left: 70px;
+}
+
+.poem-text-5-ins {
+    font: 300 14pt "BlinkMacSystemFont", "sans-serif";
+    margin-left: 70px;
+    width: 1000px;
+    line-height: 40px;
+}
+
+.img-gallery-13 {
+    display: flex;
+    position: relative;
+    margin-left: 660px;
+    margin-top: 170px;
+}
+
+.song-1-gallery {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin-top: 350px;
+}
+
+.img-gallery-14 {
+    display: block;
+    position: relative;
+    margin-left: -40px;
+}
+
+.img-wrapper-14 > img {
+    border-radius: 30px;
+}
+
+.song-text-1 {
+    display: block;
+    position: absolute;
+    color: white;
+}
+
+.song-text-1 > p {
+    font: 700 23pt "BlinkMacSystemFont", "sans-serif";
+    margin-top: 80px;
+    margin-left: 70px;
+}
+
+
+.song-2-gallery {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.img-gallery-15 {
+    display: block;
+    position: relative;
+    margin-left: -40px;
+}
+
+.img-wrapper-15 > img {
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.song-text-2 {
+    display: block;
+    position: absolute;
+    color: white;
+}
+
+.song-text-2 > p {
+    font: 700 23pt "BlinkMacSystemFont", "sans-serif";
+    width: 800px;
+    margin-top: 80px;
+    margin-left: 70px;
+}
+
+
+.song-3-gallery {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.img-gallery-16 {
+    display: block;
+    position: relative;
+    margin-left: -40px;
+}
+
+.img-wrapper-16 > img {
+    border-radius: 30px;
+    object-fit:cover;
+}
+
+.song-text-3 {
+    display: block;
+    position: absolute;
+    color: white;
+}
+
+.song-text-3 > p {
+    font: 700 23pt "BlinkMacSystemFont", "sans-serif";
+    margin-top: 80px;
+    margin-left: 70px;
+}
+
+
+.song-4-gallery {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.img-gallery-17 {
+    display: block;
+    position: relative;
+    margin-left: -40px;
+}
+
+.img-wrapper-17 > img {
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.song-text-4 {
+    display: block;
+    position: absolute;
+    color: white;
+}
+
+.song-text-4 > p {
+    font: 700 23pt "BlinkMacSystemFont", "sans-serif";
+    margin-top: 80px;
+    margin-left: 70px;
+}
+
+.song-5-gallery {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.img-gallery-18 {
+    display: block;
+    position: relative;
+    margin-left: -40px;
+}
+
+.img-wrapper-18 > img {
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.song-text-5 {
+    display: block;
+    position: absolute;
+    color: white;
+}
+
+.song-text-5 > p {
+    font: 700 23pt "BlinkMacSystemFont", "sans-serif";
+    margin-top: 80px;
+    margin-left: 70px;
+}
+
+.img-gallery-14 img, 
+.img-gallery-15 img, 
+.img-gallery-16 img, 
+.img-gallery-17 img, 
+.img-gallery-18 img {
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.img-gallery-14 img:hover, 
+.img-gallery-15 img:hover, 
+.img-gallery-16 img:hover, 
+.img-gallery-17 img:hover, 
+.img-gallery-18 img:hover {
+    opacity: 0.8;
+}
